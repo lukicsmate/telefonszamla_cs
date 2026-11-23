@@ -16,9 +16,7 @@ namespace ConsoleApp1
 
         public static bool Mobil(string szam)
         {
-            return szam.StartsWith("39") ||
-                   szam.StartsWith("41") ||
-                   szam.StartsWith("71");
+            return szam.StartsWith("39") || szam.StartsWith("41") || szam.StartsWith("71");
         }
 
         public static void Main(string[] args)
@@ -114,7 +112,6 @@ namespace ConsoleApp1
             Console.WriteLine("\n6. feladat");
             Console.WriteLine("Fizetendő: " + osszeg.ToString("0.00") + " Ft");
 
-            Console.ReadKey();
         }
     }
 }
